@@ -11,7 +11,9 @@ import * as L from 'leaflet';
 })
 export class MapComponent implements OnInit{
 
-  constructor(private httpClient: HttpClient){}
+  constructor(private httpClient: HttpClient){
+
+  }
 
   ngOnInit() {
     const zipCode:number = 95616;
